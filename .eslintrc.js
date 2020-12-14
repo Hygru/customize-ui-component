@@ -5,7 +5,7 @@ module.exports = {
         'airbnb-typescript',
         'airbnb/hooks',
         'plugin:@typescript-eslint/recommended',
-        'plugin:@typescript-eslint/recommended-requiring-type-checking'
+        'plugin:@typescript-eslint/recommended-requiring-type-checking',
     ],
     plugins: ['@typescript-eslint', 'react', 'react-hooks', 'jsx-a11y', 'import'],
     env: {
@@ -27,7 +27,7 @@ module.exports = {
         },
     },
     rules: {
-    // 自定义你的规则
+        // 自定义你的规则
         'arrow-parens': 'off',
         semi: ['error', 'never'],
         indent: [
