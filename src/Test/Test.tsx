@@ -6,7 +6,7 @@ interface IProps {
 }
 
 const Test: React.SFC<IProps> = ({ text = 'test' }: IProps) => {
-    return <div className="test">{text}</div>
+  return <div className="test">{text}</div>
 }
 
 export default Test
