@@ -1,3 +1,7 @@
+export { default as Test } from './Test'
+
 export default function() {
-    console.log('index')
+    const demo = { test: 'test test'}
+    const { test } = demo
+    console.log(test)
 }
